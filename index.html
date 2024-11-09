@@ -3,11 +3,14 @@
 <head>
     <title>Portfolio V1</title>
     <style>
+
+        /* GENERAL STYLING FOR WEBPAGE */
         body{
             background-color: black;
             color: white;
+        }    
 
-        }
+        /* STYLING FOR THE HOME SECTION */
         .container{
             display: flex;
             height: 100vh;
@@ -36,6 +39,8 @@
             border-radius: 12px;
         }
 
+        /* STYLING FOR SKILLS SECTION */
+
         #skills-section{
             text-align: center;
         }
@@ -59,6 +64,8 @@
         .skill-card p{
             color: gray;
         }
+
+        /* STYLING FOR PREVIOUS WORK SECTION */
 
         #work-section{
             text-align: center;
@@ -100,21 +107,43 @@
             /* border-radius: 3px; */
             border: none;
         }
+        /* STYLING FOR THE TESTIMONIAL SECTION */
 
         #testimonials-section{
             text-align: center;
-            margin: 7px 0px;
+            margin: 10px 0px;
         }
 
         .test-container{
             display: flex;
             justify-content: center;
-            height: 80vh;
+            height: 90vh;
         }
         
         .test-content{
             width: 50%;
             margin: auto;
+        }
+
+        .test-words{
+            text-align: justify;
+            padding: 0px 15px ;
+            margin-left: 40px;
+        }
+        .test-words p{
+            color: gray;
+            padding: 5px 0px;
+        }
+
+        .test-words button{
+            border: none;
+            border-radius: 3px;
+            padding: 13px 23px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #ffff;
+            background-color: #7E74f1;
+            cursor: pointer;
         }
 
         .test-image img{
